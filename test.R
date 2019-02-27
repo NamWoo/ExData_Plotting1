@@ -23,9 +23,22 @@ data$Sub_metering_3<-as.numeric(data$Sub_metering_3)
 assign("data", data, envir = .GlobalEnv)
 # head(data)
 
-
-
 source("plot1.R")
 plot1(data)
+
+source("plot2.R")
+plot2(data)
+
+source("plot3.R")
+plot3(data)
+
+source("plot4.R")
+plot4(data)
+
+
+
+
+
+
 
 
